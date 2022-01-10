@@ -6,7 +6,7 @@ O desafio do projeto é bem simples.
 Consiste apenas em apresentação de um catálogo de produtos de uma loja virtual.
 
 - A apresentação deve ser em grid, os cards com cada item deve ser apresentado no formato de card.
-- As informações devem ser apresentadas devem ser as seguintes(nome, price,image, categoria e classificação)
+- As informações devem ser apresentadas com os seguintes itens no card (nome, price,imagem, categoria e classificação)
 
 O endereço que deve ser usado para consumo da api será:
 
