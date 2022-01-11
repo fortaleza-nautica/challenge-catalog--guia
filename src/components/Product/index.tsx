@@ -18,7 +18,9 @@ export default function Product(props: ProductProps) {
       shadow-black transition-shadow duration-300'
     >
       <div className='max-h-80 aspect-square overflow-hidden rounded-md'>
-        <img src={props.image} className='aspect-square object-cover' />
+        {(
+          <img alt={props.title} src={props.image} className='aspect-square object-cover' /> // eslint-disable-line
+        )}
       </div>
 
       <div>

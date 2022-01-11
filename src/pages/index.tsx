@@ -26,7 +26,7 @@ export default function Home(props: HomeProps) {
     <div className='grid grid-cols-2 gap-2 p-4 max-w-4xl m-auto
       md:grid-cols-3 md:gap-4 md:p-10'
     >
-      {props.data.map((value, index) => <Product {...value} />)}
+      {props.data.map((value, index) => <Product {...value} key={value.id} />)}
     </div>
   );
 }
